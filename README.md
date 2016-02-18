@@ -8,7 +8,7 @@
 A simple utility for generating [xkcd style passwords](http://xkcd.com/936/). The generator allots a maximum of 9 words with an additional symbol and/or number.
 
 ## Demo
-<https://>
+<http://www.screencast.com/t/uriDXDLK0ddR>
 
 ## Details for teaching team
 No login required.
