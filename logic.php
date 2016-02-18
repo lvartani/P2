@@ -26,21 +26,21 @@ if ($input_words < 2 || is_numeric($input_words)==false){
     $input_words = 4;
 }
 //Create array with random words, numbers, and symbols
-$rand_keys = array_rand($words_array, $input_words);
+$sel_random = array_rand($words_array, $input_words);
 for ($i = 0; $i < $input_words; $i++){
-    echo $words_array[$rand_keys[$i]] . "-";
+    echo $words_array[$sel_random[$i]] . "-";
 }
 
 if ($input_num == "on"){
-    $rand_keys = array_rand($numbers, $input_words);
-    echo $numbers[$rand_keys[0]];
+    $sel_random = array_rand($numbers, $input_words);
+    echo $numbers[$sel_random[0]];
 }
 else{
     echo "";
 }
 if ($input_sym == "on"){
-    $rand_keys = array_rand($symbols, $input_words);
-    echo $symbols[$rand_keys[0]];
+    $sel_random = array_rand($symbols, $input_words);
+    echo $symbols[$sel_random[0]];
 }
 else{
     echo "";
