@@ -12,7 +12,7 @@
 <body>
     <div id = generator>
         <h3>PASSWORD GENERATOR</h3>
-        <form method='GET' action='display.php'>
+        <form method='GET' action='index.php'>
             Choose Characters<br>
             <input maxlength=1 type='text' name='number_words' value ='4'><br>
             <input type='checkbox' name='add_number' id='add_number' unchecked>
