@@ -10,6 +10,20 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">DWA 2016</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="http://p1.loosine.com" class= "external">Home</a></li>
+                <li><a href="http://p2.loosine.com" class= "external">Project 2</a></li>
+                <li class="active"><a href="#">Project 3</a></li>
+                <li><a href="#">Project 4</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div id = generator>
         <h3>PASSWORD GENERATOR</h3>
         <form method='GET' action='index.php'>
