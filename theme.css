@@ -1,5 +1,6 @@
 body{
-
+    margin: 0 0 100px; /* bottom = footer height */
+    font-family: 'Raleway' !important;
 }
 .password{
     font-size: 36px;

@@ -6,20 +6,23 @@
     <meta charset = 'utf-8'>
 
     <link rel='stylesheet' href='theme.css' type ='text/css'>
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
 
 </head>
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style ="font-family:Raleway;">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">DWA 2016</a>
+                <a class="navbar-brand" href="#">DWA15 Spring 2016</a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="http://p1.loosine.com" class= "external">Home</a></li>
                 <li class="active"><a href="http://p2.loosine.com" class= "external">Project 2</a></li>
-                <li><a href="http://p3.loosine.com" class= "external">Project 3</a></li>
+                <li><a href="http://p3.loosine.com">Project 3</a></li>
                 <li><a href="#">Project 4</a></li>
+                <li class="active"><a href="https://github.com/lvartani/p2">Github</a></li>
             </ul>
         </div>
     </nav>
